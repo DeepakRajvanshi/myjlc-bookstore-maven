@@ -1,4 +1,4 @@
-package com.coursecube.springboot;
+package com.jlcindia.springboot.myjlcbookstoremaven;
 
 import java.util.List;
 
@@ -15,17 +15,17 @@ public class Lab1
 	CustomerDAO cdao;
     public static void main( String[] args )
     {
-        AnnotationConfigApplicationContext ctxx = new AnnotationConfigApplicationContext(JLCConfig.class);
-        CustomerDAO cdao = (CustomerDAO)ctxx.getBean("custDAO");
+     //   AnnotationConfigApplicationContext ctxx = new AnnotationConfigApplicationContext(JLCConfig.class);
+     //   CustomerDAO cdao = (CustomerDAO)ctxx.getBean("custDAO");
         
         //Add Customer
-        Customer cust1 = new Customer(107,"sd","sd@jlc",99,"Blore");
-        cdao.addCustomer(cust1);
+   //     Customer cust1 = new Customer(107,"sd","sd@jlc",99,"Blore");
+   //     cdao.addCustomer(cust1);
         
         //getAllCustomer
         
         System.out.println("-----------getAll customer---------------");
-        List<Customer> list= cdao.getAllCustomer();
-        list.forEach(cust-> System.out.println(cust));
+//        List<Customer> list= cdao.getAllCustomer();
+ //       list.forEach(cust-> System.out.println(cust));
     }
 }
