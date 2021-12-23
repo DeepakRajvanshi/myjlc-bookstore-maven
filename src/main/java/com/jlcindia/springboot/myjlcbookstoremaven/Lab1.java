@@ -31,5 +31,6 @@ public class Lab1
 	    System.out.println("-----------Update 1 by Deepak---------------"); 
 	     System.out.println("-----------Update 2 by Deepak---------------");
 	       System.out.println("-----------Update 3 by Deepak---------------");
+	        System.out.println("-----------Update 4 by Deepak---------------");
     }
 }
