@@ -27,5 +27,7 @@ public class Lab1
         System.out.println("-----------getAll customer---------------");
 //        List<Customer> list= cdao.getAllCustomer();
  //       list.forEach(cust-> System.out.println(cust));
+	    
+	    System.out.println("-----------Update 1 by Deepak---------------"); 
     }
 }
