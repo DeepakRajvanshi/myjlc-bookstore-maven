@@ -29,5 +29,6 @@ public class Lab1
  //       list.forEach(cust-> System.out.println(cust));
 	    
 	    System.out.println("-----------Update 1 by Deepak---------------"); 
+	     System.out.println("-----------Update 2 by Deepak---------------");
     }
 }
